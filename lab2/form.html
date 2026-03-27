@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+</head>
+<body>
+
+<h1>Форма регистрации пользователя</h1>
+
+<form method="post">
+
+<table>
+<tr>
+    <td>E-mail</td>
+    <td>
+        <input type="email" name="email" placeholder="Введите e-mail" required>
+    </td>
+</tr>
+
+<tr>
+    <td>Пароль</td>
+    <td>
+        <input type="password" name="password" placeholder="Введите пароль" required>
+    </td>
+</tr>
+
+<tr>
+    <td>Пол</td>
+    <td>
+        <label>
+            <input type="radio" name="gender" value="male" checked>
+            Мужчина
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">
+            Женщина
+        </label>
+    </td>
+</tr>
+
+<tr>
+    <td>Год рождения</td>
+    <td>
+        <select name="year">
+            <option>1981</option>
+            <option>1982</option>
+            <option>1983</option>
+            <option>1984</option>
+            <option>1985</option>
+            <option>1986</option>
+            <option>1987</option>
+            <option>1988</option>
+            <option>1989</option>
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+        </select>
+        -й
+    </td>
+</tr>
+
+<tr>
+    <td>Я знаю</td>
+    <td>
+        <label>
+            <input type="checkbox" checked disabled>
+            Русский
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="lang" value="es">
+            Испанский
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="lang" value="de">
+            Немецкий
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="lang" value="en">
+            Английский
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="lang" value="cn">
+            Китайский
+        </label>
+    </td>
+</tr>
+
+<tr>
+    <td>Обо мне</td>
+    <td>
+        <textarea name="about" placeholder="Напишите коротко о себе"></textarea>
+    </td>
+</tr>
+
+<tr>
+    <td></td>
+    <td>
+        <button type="submit">Готово</button>
+        <button type="reset">Очистить</button>
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
